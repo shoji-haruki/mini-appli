@@ -1,0 +1,17 @@
+
+.content {
+  margin: 0;
+  background-color: #F3FFD8;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  &__body {
+    margin-top: 20px;
+    overflow: scroll;
+    height: calc(100vh - 110px);
+  }
+}
+
+// Place all the styles related to the messages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/

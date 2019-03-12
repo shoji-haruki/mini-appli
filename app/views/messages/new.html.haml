@@ -1,0 +1,6 @@
+
+= form_with model: @message do |f|
+  = f.text_field :message
+  = f.submit "送信"
+/ -else
+/   flash[:notice] = "新規投稿画面"

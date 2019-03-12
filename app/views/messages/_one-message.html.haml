@@ -1,0 +1,17 @@
+.row
+  .col.s12.m60
+    .card.blue-grey.darken-1
+      .card-content.white-text
+
+        / - if flash[:notice]
+        /   %h6= flash[:notice]
+        = message.message
+      .card-action
+        - if user_signed_in?
+          - if message.user_id == current_user.id
+            = link_to "編集", "/messages/#{message.id}/edit", method: 'get'
+            = link_to "削除", "/messages/#{message.id}", method: 'delete'
+          - if message.user_id != current_user.id
+            .me 自分の投稿のみ編集、削除できます
+
+

@@ -1,0 +1,7 @@
+/ .edit
+/   .edit-box
+/     %h3 編集完了
+/     = link_to "一覧へ", root_path, method: :get
+= form_with model: @message do |f|
+  = f.text_field :message
+  = f.submit "送信"

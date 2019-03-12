@@ -1,0 +1,49 @@
+.content {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  position:relative;
+  &--top {
+    width: 100%;
+    margin: 0 0 20px 0;
+    height: 90px;
+    background-color: #EEFFFF;
+    position: relative;
+    &__title {
+      font-size: 50px;
+      line-height: 50px;
+      padding-left: 20px;
+      padding-top: 20px;
+      font-weight: bold;
+      color: #5D99FF;
+      width: 50%;
+    }
+    a {
+      font-size:30px;
+      font-weight: bold;
+    }
+    &__box {
+      position: absolute;
+      right: 70px;
+      top: 0;
+      .content--top__box__menu {
+        .content--top__box__menu-4 {
+          a {
+          color: green;
+        }
+        }
+
+        .top__menu-2 {
+
+        }
+      }
+    }
+  }
+}
+
+%h6 {
+  font-size:200px;
+}
+
+
