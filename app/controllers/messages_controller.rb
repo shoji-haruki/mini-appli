@@ -17,7 +17,6 @@ class MessagesController < ApplicationController
 
     redirect_to root_path
 
-    # redirect_to action: :index
   end
 
   def destroy

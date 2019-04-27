@@ -13,10 +13,11 @@
 ActiveRecord::Schema.define(version: 2019_03_07_042316) do
 
   create_table "messages", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.integer "user_id"
+    t.string "message", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "message", null: false
+    t.bigint "user_id"
+    t.index ["user_id"], name: "index_messages_on_user_id"
   end
 
   create_table "users", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
