@@ -1,24 +1,31 @@
 # README
+Name
+====
+mini-appli
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Overview
+- user registration
+- Login, Logout
+- Post, edit, delete text
+- Display flash message
 
-Things you may want to cover:
+## Description
+- user registration-New registration is required to post
+- Login, Logout-Menu changes when logging out
+- Post, edit, delete text-Registration makes it possible to submit new posts. You can edit and delete only your own posts
+- Display flash message-A flash message will be displayed according to the screen to improve usability
 
-* Ruby version
+## Demo
 
-* System dependencies
 
-* Configuration
+## Requirement
 
-* Database creation
+## Usage
 
-* Database initialization
+## Install
 
-* How to run the test suite
+## Contribution
 
-* Services (job queues, cache servers, search engines, etc.)
+## Author
 
-* Deployment instructions
-
-* ...
+[tcnksm](https://github.com/tcnksm)
