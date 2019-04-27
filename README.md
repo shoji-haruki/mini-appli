@@ -20,12 +20,12 @@ mini-appli
 
 ## Install
 ### rails development environment required
-Execute command on terminal
-$ git clone git@github.com:syoji-haruki/mini-appli.git
-$ cd mini-appli
-$ bundle install
-$ rake db:create
-$ rake db:migrate
+*Execute command on terminal* <br>
+$ git clone git@github.com:syoji-haruki/mini-appli.git <br>
+$ cd mini-appli <br>
+$ bundle install <br>
+$ rake db:create <br>
+$ rake db:migrate <br>
 $ rails s
 
 ## Author
