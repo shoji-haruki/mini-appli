@@ -3,6 +3,9 @@ Name
 ====
 mini-appli
 
+## Demo
+![github-ミニアプリ](https://user-images.githubusercontent.com/47352093/56849016-0c744480-692a-11e9-9e54-0a549abf21f2.gif)
+
 ## Overview
 - user registration
 - Login, Logout
@@ -15,17 +18,16 @@ mini-appli
 - Post, edit, delete text-Registration makes it possible to submit new posts. You can edit and delete only your own posts
 - Display flash message-A flash message will be displayed according to the screen to improve usability
 
-## Demo
-[![Image from Gyazo](https://i.gyazo.com/f6c3f76b5dcf9ac3e2b5bd857cce90a8.gif)](https://gyazo.com/f6c3f76b5dcf9ac3e2b5bd857cce90a8)
-![名称未設定](https://user-images.githubusercontent.com/47352093/56848501-f912aa80-6924-11e9-8fe7-6c7781510c1d.gif)
-## Requirement
-
-## Usage
-
 ## Install
-
-## Contribution
+### rails development environment required
+Execute command on terminal
+$ git clone git@github.com:syoji-haruki/mini-appli.git
+$ cd mini-appli
+$ bundle install
+$ rake db:create
+$ rake db:migrate
+$ rails s
 
 ## Author
 
-[tcnksm](https://github.com/tcnksm)
+[syoji-haruki](https://github.com/syoji-haruki)
