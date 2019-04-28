@@ -18,6 +18,10 @@ mini-appli
 - Post, edit, delete text-Registration makes it possible to submit new posts. You can edit and delete only your own posts
 - Display flash message-A flash message will be displayed according to the screen to improve usability
 
+## Dependency
+- ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-darwin18]
+- Rails 5.2.2.1
+
 ## Install
 ### rails development environment required
 *Execute command on terminal* <br>
