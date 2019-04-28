@@ -1,7 +1,7 @@
 # README
 Name
 ====
-mini-appli
+mini-appli(rails basic review app)
 
 ## Demo
 ![github-ミニアプリ](https://user-images.githubusercontent.com/47352093/56849016-0c744480-692a-11e9-9e54-0a549abf21f2.gif)
